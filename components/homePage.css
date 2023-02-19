@@ -1,0 +1,28 @@
+#welcome {
+  margin-top: auto;
+  background-color: purple;
+  font-size: 30px;
+  text-align: center;
+  color: goldenrod;
+}
+
+#homePageFooter {
+  margin-top: auto;
+  background-color: purple;
+  font-size: 15px;
+  text-align: center;
+  color: goldenrod;
+}
+p {
+  color: goldenrod;
+}
+aside {
+  color: goldenrod;
+  float: left;
+  width: 30%;
+}
+#reg {
+  float: right;
+  width: 40%;
+}
+

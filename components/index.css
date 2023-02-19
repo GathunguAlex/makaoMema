@@ -1,12 +1,20 @@
-#feelFree {
+#welcomeMakao {
   margin-top: auto;
   background-color: purple;
   font-size: 30px;
   text-align: center;
   color: goldenrod;
 }
-
-#footer {
+#choices {
+  color: goldenrod;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+  display: inline-block;
+  vertical-align: baseline;
+  padding-top: 2rem;
+}
+#footerIndex {
   margin-top: auto;
   background-color: purple;
   font-size: 15px;

@@ -1,0 +1,20 @@
+#wlcm {
+  margin-top: auto;
+  background-color: purple;
+  font-size: 30px;
+  text-align: center;
+  color: goldenrod;
+}
+#usrfooter {
+  margin-top: auto;
+  background-color: purple;
+  font-size: 15px;
+  text-align: center;
+  color: goldenrod;
+}
+p {
+  color: goldenrod;
+}
+label {
+  color: goldenrod;
+}
