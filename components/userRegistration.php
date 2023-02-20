@@ -12,7 +12,7 @@
   <body>
     <h2 id="wlcm">Welcome to Makao Mema</h2>
     <p>Please fill in the registration form below</p>
-    <form action="signUp" method="post">
+    <form action="userRegistration method="post">
       <label for="fullname">Enter names in full</label>
       <input type="text" name="fullName" placeholder="Fullnames" />
       <br />
@@ -30,7 +30,7 @@
       repudiandae debitis cumque nihil! Libero deleniti numquam amet nihil
       cupiditate omnis expedita eaque necessitatibus.
     </p>
-    <p><a href="/index.html"> Back to Homepage </a></p>
+    <p><a href="/index.php"> Back to Homepage </a></p>
     <footer id="usrfooter">
       <p>Authors: Alex Gathungu, Mariana Maina <img src="/images/makaoMemaLogo.jpg" alt="makaoMemaLogo" height="15rem">
         &copy;2023 </p>

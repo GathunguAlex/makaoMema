@@ -24,3 +24,8 @@
 p {
   color: goldenrod;
 }
+body {
+  background-image: url(/images/makaoMemaLogo.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 90%;
+}

@@ -20,11 +20,11 @@
     <br />
     <div id="choices">
       <ul>
-        <li><a href="./components/homePage.html" target="_blank">Login</a></li>
+        <li><a href="./components/homePage.php" target="_blank">Login</a></li>
 
-        <li><a href="./components/houses.html" target="_blank">Houses</a></li>
+        <li><a href="./components/houses.php" target="_blank">Houses</a></li>
         <li>
-          <a href="./components/contacts.html" target="_blank">Contact Us</a>
+          <a href="./components/contacts.php" target="_blank">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -55,7 +55,7 @@
       Modi, laboriosam.
     </p>
     <!-- hero image -->
-    <img src="./images/makaoMemaLogo.jpg" alt="makao mema background image" width="100%" />
+    <!-- <img src="./images/makaoMemaLogo.jpg" alt="makao mema background image" width="100%" /> -->
 
     <footer id="footerIndex">
       <p>Authors: Alex Gathungu, Mariana Maina <img src="/images/makaoMemaLogo.jpg" alt="makaoMemaLogo" height="15rem">

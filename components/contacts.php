@@ -26,7 +26,7 @@
                Quis, quibusdam?
           </p>
           <br />
-          <form action="feedback" method="post">
+          <form action="contacts.php" method="post">
                <input type="text" name="fullname" placeholder="Full names">
                <br />
 
@@ -34,7 +34,7 @@
                <br>
                <button type="submit">Send</button>
           </form>
-          <p><a href="/index.html"> Back to Homepage </a></p>
+          <p><a href="/index.php"> Back to Homepage </a></p>
 
           <footer id="footer">
                <p>Authors: Alex Gathungu, Mariana Maina <img src="/images/makaoMemaLogo.jpg" alt="makaoMemaLogo"
