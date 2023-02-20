@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="aurhor" content="house booking" />
-    <link rel="stylesheet" href="./components/index.css">
+    
+    <link rel="stylesheet" href="./index.css">
     <title>House hunting</title>
   </head>
 
   <body>
     <header id="welcomeMakao"> <img style=float:left;" src="./images/makaoMemaLogo.jpg" alt="makaoMemaLogo"
-        width="67rem" />
+        width="67rem" >
       <h1>Welcome to Makao Mema</h1>
 
 
@@ -20,11 +20,11 @@
     <br />
     <div id="choices">
       <ul>
-        <li><a href="./components/homePage.php" target="_blank">Login</a></li>
+        <li><a href="/homePage.php" target="_blank">Login</a></li>
 
-        <li><a href="./components/houses.php" target="_blank">Houses</a></li>
+        <li><a href="/houses.php" target="_blank">Houses</a></li>
         <li>
-          <a href="./components/contacts.php" target="_blank">Contact Us</a>
+          <a href="/contacts.php" target="_blank">Contact Us</a>
         </li>
       </ul>
     </div>
