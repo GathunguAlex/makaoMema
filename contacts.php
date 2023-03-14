@@ -34,7 +34,7 @@
                <br>
                <button type="submit">Send</button>
           </form>
-          <p><a href="/index.php"> Back to Homepage </a></p>
+          <p><a href="makaoMema/index.php"> Back to Homepage </a></p>
 
           <footer id="footer">
                <p>Authors: Alex Gathungu, Mariana Maina <img src="/images/makaoMemaLogo.jpg" alt="makaoMemaLogo"

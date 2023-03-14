@@ -17,43 +17,18 @@
           </aside>
           <br />
            
-          <p>
-               Please login here:
-               <a href="./userRegistration.php" target="_blank">No account?
-               </a>
-          </p>
+         
 
-          <form id="reg" method="post" action="homePage.php">
-               <label for="name">Name</label>
-               <input type="text" name="fullName" placeholder="enter your Fullname" />
+          <form id="login" method="post" action="login.php">
+               <label for="username">Username</label>
+               <input type="text" name="username" placeholder="enter your Username" />
                <br />
                <label for="password">Password</label>
                <input type="password" name="password" placeholder="enter your password" />
                <br />
-               <input type="submit" value="Login" />
+               <input type="submit" value="Login" name="submit" />
           </form>
-           <?php 
-           
-            session_start();
-
-            if (isset($_POST['fullName']) && isset($_POST['password'])) {
-                         $username = $_POST['username'];
-                         $password = $_POST['password'];
-
-             if ($username == 'your_username' && $password == 'your_password') {
-        // Set a session variable to indicate that the user is logged in
-        $_SESSION['logged_in'] = true;
-
-        // Redirect the user to another page
-        header('houses.php');
-        exit();
-
-            } else {
-        // Display an error message if the username or password is incorrect
-        echo 'Incorrect username or password';
-    }
-} 
-          ?>
+         
           
           <p class="loremHomePage">
                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, facilis!
@@ -63,7 +38,7 @@
                aliquid officiis deserunt, rerum quo modi eius cum dolorum ex quam?
           </p>
 
-          <p><a href="/index.php"> Back to Homepage </a></p>
+          <p><a href="/makaoMema/index.php"> Back to Homepage </a></p>
           <br />
           <footer id="homePageFooter">
                <p>Authors: Alex Gathungu, Mariana Maina <img src="/images/makaoMemaLogo.jpg" alt="makaoMemaLogo"
@@ -71,5 +46,5 @@
                     &copy;2023 </p>
           </footer>
      </body>
-
+<!-- this is a comment -->
 </html>

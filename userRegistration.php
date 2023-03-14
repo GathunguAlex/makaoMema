@@ -12,7 +12,7 @@
   <body>
     <h2 id="wlcm">Welcome to Makao Mema</h2>
     <p>Please fill in the registration form below</p>
-    <form action="userRegistration method="post">
+    <form action= registration.php method="post">
       <label for="fullname">Enter names in full</label>
       <input type="text" name="fullName" placeholder="Fullnames" />
       <br />
@@ -24,13 +24,15 @@
       <br />
       <input type="submit" value="sign up" />
     </form>
+
+
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat
       alias id, quia corporis vel, tempore similique nisi, sed maiores dolores
       repudiandae debitis cumque nihil! Libero deleniti numquam amet nihil
       cupiditate omnis expedita eaque necessitatibus.
     </p>
-    <p><a href="/index.php"> Back to Homepage </a></p>
+    <p><a href="/makaoMema/index.php"> Back to Homepage </a></p>
     <footer id="usrfooter">
       <p>Authors: Alex Gathungu, Mariana Maina <img src="/images/makaoMemaLogo.jpg" alt="makaoMemaLogo" height="15rem">
         &copy;2023 </p>

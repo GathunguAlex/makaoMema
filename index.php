@@ -20,12 +20,12 @@
     <br />
     <div id="choices">
       <ul>
-        <li><a href="/homePage.php" target="_blank">Login</a></li>
-
-        <li><a href="/houses.php" target="_blank">Houses</a></li>
-        <li>
-          <a href="/contacts.php" target="_blank">Contact Us</a>
-        </li>
+        <li><a href="/makaoMema/homePage.php" target="_blank">Login</a></li>
+          <p>
+               Please login here:
+               <a href="/makaoMema/userRegistration.php" target="_blank">No account?
+               </a>
+          </p>
       </ul>
     </div>
     <br />
