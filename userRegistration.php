@@ -5,12 +5,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./general.css">
     <link rel="stylesheet" href="./userRegistration.css">
     <title>userRegistration</title>
   </head>
 
   <body>
-    <h2 id="wlcm">Welcome to Makao Mema</h2>
+    <h1 id="welcome-makao">Welcome to Makao Mema</h1>
     <p>Please fill in the registration form below</p>
     <form action= registration.php method="post">
       <label for="fullname">Enter names in full</label>

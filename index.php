@@ -5,26 +5,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <link rel="stylesheet" href="./general.css">
     <link rel="stylesheet" href="./index.css">
     <title>House hunting</title>
   </head>
 
   <body>
-    <header id="welcomeMakao"> <img style=float:left;" src="./images/makaoMemaLogo.jpg" alt="makaoMemaLogo"
+    <header> <img style="float:left;" src="./images/makaoMemaLogo.jpg" alt="makaoMemaLogo"
         width="67rem" >
-      <h1>Welcome to Makao Mema</h1>
-
-
+      <h1 id="welcome-makao">Welcome to Makao Mema</h1>
     </header>
     <br />
+
     <div id="choices">
       <ul>
         <li><a href="/makaoMema/homePage.php" target="_blank">Login</a></li>
           <p>
-               Please login here:
-               <a href="/makaoMema/userRegistration.php" target="_blank">No account?
-               </a>
+                Please login here:
+                <a href="/makaoMema/userRegistration.php" target="_blank">No account?
+                </a>
           </p>
       </ul>
     </div>

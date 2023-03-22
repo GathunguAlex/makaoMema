@@ -5,12 +5,13 @@
           <meta charset="UTF-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="stylesheet" href="./general.css">
           <link rel="stylesheet" href="./homePage.css">
           <title>Homepage</title>
      </head>
 
      <body>
-          <h1 id="welcome"> Welcome to Makao Mema(M.M) </h1>
+          <h1 id="welcome-makao"> Welcome to Makao Mema(M.M) </h1>
           <aside>
                We understand how frustrating house hunting can be; worry no more, M.M is
                here for you
